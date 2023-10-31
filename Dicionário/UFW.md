@@ -10,6 +10,9 @@
 - *`ufw status`*
 >&nbsp; Indica se o *Firewall* se encontra ativo ou não, bem como informações relativas a regras criadas.
 
+- *`ufw status verbose`*
+>&nbsp; Concede informações mais relevantes sobre o estado atual do *UFW* quando o mesmo encontra-se ativo.
+
 - *`ufw status numbered`*
 >&nbsp; Similar a opção anterior, porém passa a enumerar as regras criadas.
 
@@ -144,3 +147,72 @@
 >>Supondo que esta regra tivesse como número correspondente "15", poderíamos também usar *`ufw delete 15`* para apagar tal regra.
 
 </details>
+
+#### Registro de Entradas (*Logging*).
+&nbsp; Podemos definir se queremos registrar ou não as entradas efetuadas em nosso *firewall*, para tal, usamos:
+
+- *`ufw logging on`*
+>&nbsp; Ativa o registro de entradas.
+
+- *`ufw logging off`*
+>&nbsp; Desativa o registro de entradas.
+
+Podemos também alterar o quanto de informação será registrado por cada entrada.
+
+- *`ufw logging <logging_level>`*
+> &nbsp; Altera o nível de informação que será registrado, temos como argumentos para _**\<logging_level\>**_:
+><details><summary><i><b>Arguments</b></i></summary>
+><br>
+>
+>- *`low`*
+>>&nbsp; Guarda registros relacionados à pacotes que foram bloqueados por não obedecer as regras do firewall e apresenta registros relacionados às regras de registro.
+>>
+>>*PS: É possível definir regras para registros.*
+>
+>- *`medium`*
+>>&nbsp; Para além dos registros guardados pelo nível *`low`*, você receberá registros para pacotes inválidos e novas conexões.
+>
+>- *`high`*
+>> &nbsp; Inclui também registros para pacotes com e sem "*rate limiting*".
+>
+>- *`full`*
+>> &nbsp; Similar ao *`high`*, porém não inclui o "*rate limiting*".
+
+</details>
+
+É possível também adicionar regras aos serviço de registro.
+- *`ufw allow log <service_name>`*
+>&nbsp; Permite o registro de entradas no _**\<service_name\>**_.
+
+## Interpretando o Registro de Entradas (*Log Entries*).
+&nbsp; Os valores **SPT**, **DPT**, **SRC** e **DST** são geralmente os valores que merecem mais atenção ao se analisar os registros do *firewall*.
+
+Exemplo de uma *Log Entry*:
+```bash
+Feb  4 23:33:37 hostname kernel: [ 3529.289825] [UFW BLOCK] IN=eth0 OUT=
+MAC=00:11:22:33:44:55:66:77:88:99:aa:bb:cc:dd SRC=444.333.222.111 DST=111.222.333.444 LEN=103 TOS=0x00
+PREC=0x00 TTL=52 ID=0 DF PROTO=UDP SPT=53 DPT=36427 LEN=83
+```
+
+|Item|Descrição|
+|---|---|
+|\<*date*\>|Data e horário da criação da entrada.|
+|\<*hostname*\>| Nome do Host do servidor.|
+|\<*uptime*\>|Tempo em segundos desde o *boot*.|
+|\<*logged event*\>|Uma curta descrição do evento registrado, neste caso [UFW BLOCK]|
+|IN|Caso possua valor, significa que foi um evento de entrada.|
+|OUT|Caso possua valor, foi um evento de saída.|
+|MAC| Apresenta uma combinação de 14-bytes do destino MAC e fonte MAC, seguindo a ordem encontrada em *[Ethernet II header](https://en.wikipedia.org/wiki/Ethernet_frame)*. |
+|SRC| Indica o IP fonte, no caso, quem enviou o pacote inicialmente.|
+|DST| Indica o IP de destino, no caso, quem deverá receber o pacote. podemos usar o comando `whois` no *CLI* para determinar quem é o dono do endereço IP.|
+|LEN|Indica o comprimento do pacote.|
+|TOS|*Type of Service field* como indicado em *[IPv4 header](https://datatracker.ietf.org/doc/html/draft-xiao-tcp-prec-02)*.|
+|PREC|*Precedence Field* como indicado em *[IPv4 header](https://datatracker.ietf.org/doc/html/draft-xiao-tcp-prec-02)*.|
+|TTL|"*Time to Live*", basicamente cada pacote irá viajar entre um dado número de *routers* antes de desaparecer. Caso não consiga chegar ao destino antes atingir o número indicado pelo TTL, o pacote irá desaparecer, esse campo serve para impedir que pacotes de informações perdidos ocupem espaço na *internet* eternamente. Para mais informações veja a página da *[Wikipedia sobre TTL](https://en.wikipedia.org/wiki/Time_to_live)*.|
+|ID| Apresenta um ID único do IP.|
+|PROTO|Indica o protocolo do pacote.|
+|SPT|Indica a porta fonte do pacote.|
+|DPT|Indica a porta de destino do pacote.|
+|WINDOW|Mostra o tamanho de pacote que o remetente está disposto a receber.|
+|RES|Indica bits reservados.|
+|SYN URGP| Indica que essa conexão necessita de |
