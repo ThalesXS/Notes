@@ -32,7 +32,7 @@ Importante notar que o algoritmo não pode ter uma duração infinita.
 
 ## Analisando Algoritmos
 &nbsp; Antes de avaliarmos a eficiência de um algoritmo, primeiro devemos
-verificar que o mesmo é um algoritmo válido, para tal, verificamos se em todas
+verificar se o mesmo é um algoritmo válido, para tal, verificamos se em todas
 as vezes que o algoritmo corre com algum *input* possível, nós sempre temos o
 *output* esperado. Para além disso, podemos também declarar que para cada input
 possível, o algoritmo deve finalizar, caso ele corra infinitamente, o algoritmo
@@ -64,7 +64,7 @@ observamos quantas tentativas o algoritmo necessita para encontrar a resposta no
 &nbsp;Como exemplo, em um jogo de advinhar números, sendo os possíveis inputs [1;100]
 , para um algoritmo que tenta cada número de forma crescente, teríamos:
 
-1. Melhor caso = 3.
+1. Melhor caso = 1.
 
 2. Pior caso = 100.
 
@@ -72,7 +72,31 @@ observamos quantas tentativas o algoritmo necessita para encontrar a resposta no
 
 &nbsp; Verificar o pior caso nos dá o benefício de saber qual o máximo de tempo
 que o nosso algoritmo pode levar. Por conta disso, a eficiência temporal de um
-algoritmo é baseada no tempo levado pelo pior caso.
+algoritmo é baseada no tempo levado pelo pior caso. Desta forma criamos testes
+com o limite de inputs cada vez maior, e é através destes teste que nós
+definimos a forma padrão de se avaliar um algoritmo, o Growth Rate.
 
-&nbsp; Ao termos como base o pior caso, criamos testes com o limite de inputs
-cada vez maior, e é através destes teste que nós definimos o Growth Rate
+#### Growth Rate / Order of Growth
+&nbsp; Também conhecido como "*Big O*", é uma definição teórica da complexidade
+de um algoritimo em função de seu tamanho. Podemos dizer que o mesmo é uma
+notação usada para descrever a complexidade, neste caso, reduzindo esta a apenas
+uma variável.
+
+&nbsp; Um exemplo de complexidade escrita em forma de *Big O*, possui a seguinte
+aparência:
+
+###### O(n)
+ - Neste simbolo, "**O**" significa "Ordem de magnetude da complexidade",sendo
+esta complexidade os testes exercidos para encontrar a eficiência de um dado
+algoritmo.
+
+- Enquanto o "**(n)**" representa "Uma função do tamanho", isso significa que o
+ *Big O* mede a complexidade conforme o tamanho aumenta.
+
+&nbsp; A variável usada pelo **O(n)** reduz a informação para que ao ser lida,
+sejamos capazes de notar a diferença sem termos que recorrer a métodos mais longos.
+
+&nbsp; É importante notar que a complexidade é algo relativo, quando avaliamos a
+complexidade de um algoritmo, fazemos isso comparando o mesmo com outros algoritmos.
+*Big O* é uma ótima notação para entender a complexidade temporal e espacial,
+mas apenas quando fazemos comparações entre algoritmos que resolvem o mesmo problema.
