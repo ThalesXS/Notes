@@ -1,0 +1,70 @@
+## O que é um Algoritmo.
+&nbsp; Algoritmo é um processo/conjunto de regras a se seguir para a resolução
+de uma dada tarefa.
+
+&nbsp; Para aplicar um algoritmo corretamente, é necessário primeiro:
+
+- Entender o problema em si.
+
+- Quebrar o problema em partes menores, de forma a se denfinir claramente quais
+são os possíveis inputs e outputs de cada parte.
+
+- Decidir qual o passo ideal para solucionar cada um das partes.
+
+## Construindo um Algoritmo
+
+### Passo 1: Determinar o Objetivo do Algoritmo.
+&nbsp; Para tal, definimos claramente qual é o problema e quais são os inputs e
+outputs válidos.
+
+### Passo 2: Dividir o Problema em partes menores.
+&nbsp; Dividimos o problema de forma a diminuir sua complexidade e então criamos
+uma regra pra solucionar cada parte desse problema.
+
+### Passo 3: Definir as Regras do Algoritmo.
+Cada passo do algoritmo precisa ser simples e explícito, de forma a ser impossível
+dividir um passo em 2 diferentes.
+
+### Passo 4: Definir o Resultado do Algoritmo.
+Para o algoritmo funcionar, é necessário que o mesmo produza um resultado, de
+forma a sabermos que o mesmo funcionou, mesmo que o resultado seja vazio.
+Importante notar que o algoritmo não pode ter uma duração infinita.
+
+## Analisando Algoritmos
+&nbsp; Antes de avaliarmos a eficiência de um algoritmo, primeiro devemos
+verificar que o mesmo é um algoritmo válido, para tal, verificamos se em todas
+as vezes que o algoritmo corre com algum *input* possível, nós sempre temos o
+*output* esperado. Para além disso, podemos também declarar que para cada input
+possível, o algoritmo deve finalizar, caso ele corra infinitamente, o algoritmo
+não é válido.
+
+### Verificando a Eficiência de um Algoritmo.
+&nbsp; Existem dois parâmetros a ser verificados quando falamos da eficiência de
+um algoritmo, são elas: tempo e espaço.
+
+###### Time Complexity
+&nbsp; É a medida definida pelo tempo o algoritmo levou para terminar o seu
+trabalho.
+
+#### Space Complexity
+&nbsp; É a medida definida pela memória que o algoritmo utilizou para completar
+o seu trabalho.
+
+### Como Escolher o Melhor Algoritmo
+&nbsp; Para tal, verificamos: como os algoritmos se saem no:
+
+1. Melhor caso.
+
+2. Pior caso.
+
+3. Caso mediano.
+
+Como exemplo, em um jogo de advinhar números, sendo os possíveis inputs [1;100]
+,
+para um algoritmo que tenta cada número de forma crescente, teríamos:
+
+1. Melhor caso = 3.
+
+2. Pior caso = 100.
+
+3. Caso mediano = 50.
