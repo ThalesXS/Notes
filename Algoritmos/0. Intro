@@ -76,7 +76,7 @@ algoritmo é baseada no tempo levado pelo pior caso. Desta forma criamos testes
 com o limite de inputs cada vez maior, e é através destes teste que nós
 definimos a forma padrão de se avaliar um algoritmo, o Growth Rate.
 
-#### Growth Rate / Order of Growth
+## Growth Rate / Order of Growth
 &nbsp; Também conhecido como "*Big O*", é uma definição teórica da complexidade
 de um algoritimo em função de seu tamanho. Podemos dizer que o mesmo é uma
 notação usada para descrever a complexidade, neste caso, reduzindo esta a apenas
@@ -90,13 +90,24 @@ aparência:
 esta complexidade os testes exercidos para encontrar a eficiência de um dado
 algoritmo.
 
-- Enquanto o "**(n)**" representa "Uma função do tamanho", isso significa que o
+- Enquanto o "**(n)**" representa "Uma função de tamanho **n**", isso significa que o
  *Big O* mede a complexidade conforme o tamanho aumenta.
 
-&nbsp; A variável usada pelo **O(n)** reduz a informação para que ao ser lida,
-sejamos capazes de notar a diferença sem termos que recorrer a métodos mais longos.
+&nbsp; No caso temos que o *Big O* é uma função "O" que recebe como argumento um
+tamanho "n" e retorna uma variável que representa o nível de complexidade de um
+algoritmo.
 
-&nbsp; É importante notar que a complexidade é algo relativo, quando avaliamos a
-complexidade de um algoritmo, fazemos isso comparando o mesmo com outros algoritmos.
-*Big O* é uma ótima notação para entender a complexidade temporal e espacial,
-mas apenas quando fazemos comparações entre algoritmos que resolvem o mesmo problema.
+&nbsp; A variável usada pelo **O(n)** reduz a informação para que ao ser lida,
+sejamos capazes de notar a diferença sem termos que recorrer a métodos complicados.
+
+> [!NOTE] &nbsp; É importante notar que a complexidade é algo relativo, quando avaliamos a
+>complexidade de um algoritmo, fazemos isso comparando o mesmo com outros algoritmos.
+>*Big O* é uma notação para entender a complexidade temporal e espacial,
+>mas serve apenas quando fazemos comparações entre algoritmos que resolvem o
+>mesmo problema.
+
+### Tipos Comuns de *Big O*
+
+&nbsp; Primeiramente é importante notar que não é apenas o algoritmo como um todo
+que possui um *Big O*, todos os passos realizados pelo algoritmo possuem um
+*Big O* próprio.
