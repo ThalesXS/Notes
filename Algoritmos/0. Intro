@@ -75,4 +75,4 @@ que o nosso algoritmo pode levar. Por conta disso, a eficiência temporal de um
 algoritmo é baseada no tempo levado pelo pior caso.
 
 &nbsp; Ao termos como base o pior caso, criamos testes com o limite de inputs
-cada vez maior. Através destes teste nós definimos a
+cada vez maior, e é através destes teste que nós definimos o Growth Rate
