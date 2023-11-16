@@ -73,7 +73,7 @@ observamos quantas tentativas o algoritmo necessita para encontrar a resposta no
 &nbsp; Verificar o pior caso nos dá o benefício de saber qual o máximo de tempo
 que o nosso algoritmo pode levar. Por conta disso, a eficiência temporal de um
 algoritmo é baseada no tempo levado pelo pior caso. Desta forma criamos testes
-com o limite de inputs cada vez maior, e é através destes teste que nós
+com uma amostra de inputs cada vez maior, e é através destes teste que nós
 definimos a forma padrão de se avaliar um algoritmo, o Growth Rate.
 
 ## Growth Rate / Order of Growth
@@ -111,3 +111,36 @@ sejamos capazes de notar a diferença sem termos que recorrer a métodos complic
 &nbsp; Primeiramente é importante notar que não é apenas o algoritmo como um todo
 que possui um *Big O*, todos os passos realizados pelo algoritmo possuem um
 *Big O* próprio.
+
+>- **O(1)** (Constant Time): Representa um algoritmo constante, onde o valor da amostra
+não interfere em sua complexidade.
+>
+>Ex: Um teste de comparação entre o valor atual e o desejado.
+
+>- **O(log n) ou O(ln n)** (Logarithmic Runtime): Representa um algoritmo que aumenta
+de complexidade de acordo com "log<sub>x</sub> n". Este é um exemplo de um *Big O*
+sublinear.
+>
+>Ex: Uma busca binária, onde procuramos sempre a partir da metade, depois
+descartamos a metade que sabemos que não precisamos, funciona como
+"log<sub><sub>2</sub></sub>n".
+
+>- **O(n)** (Linear Time): Representa um algoritmo que aumenta de complexidade
+linearmente conforme aumentamos o tamanho da amostra.
+>
+> Ex: Uma busca linear em um array de inteiros.
+
+>- **O(n<sup>2</sup>)** (Quadratic Time): Representa um algoritmo que possui uma
+complexidade igual ao quadrado de "n".
+>
+> Ex: Uma busca linear em uma matriz de n * n.
+
+>- **O(n<sup>3</sup>)** (Cubic Runtime): Representa um algoritmo que para uma
+amostra de tamanho n, executa n<sup>3</sup> operações. Não é tão comum quanto
+um Quadratic Runtime.
+
+>- **O(n log n)** (Quasilinear Runtimes): Representa um algoritmo em que para cada
+valor de n, iremos executar (log n) operações.
+>
+>Ex: Quase todas operações de ordenação possuem um *Big O* deste tipo, merge sort
+é um ótimo exemplo deste tipo.
