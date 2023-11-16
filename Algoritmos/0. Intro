@@ -47,11 +47,11 @@ um algoritmo, são elas: tempo e espaço.
 &nbsp; É a medida definida pelo tempo o algoritmo levou para terminar o seu
 trabalho.
 
-##### Space Complexity
+###### Space Complexity
 &nbsp; É a medida definida pela memória que o algoritmo utilizou para completar
 o seu trabalho.
 
-### Medindo a Eficiência Temporal.
+#### Medindo a Eficiência Temporal.
 &nbsp; Para podermos verificar a eficiência temporal de um dado algoritmo,
 observamos quantas tentativas o algoritmo necessita para encontrar a resposta no:
 
@@ -71,4 +71,8 @@ observamos quantas tentativas o algoritmo necessita para encontrar a resposta no
 3. Caso mediano = 50.
 
 &nbsp; Verificar o pior caso nos dá o benefício de saber qual o máximo de tempo
-que o nosso algoritmo pode levar.
+que o nosso algoritmo pode levar. Por conta disso, a eficiência temporal de um
+algoritmo é baseada no tempo levado pelo pior caso.
+
+&nbsp; Ao termos como base o pior caso, criamos testes com o limite de inputs
+cada vez maior. Através destes teste nós definimos a
