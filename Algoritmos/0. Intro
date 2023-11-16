@@ -38,20 +38,22 @@ as vezes que o algoritmo corre com algum *input* possível, nós sempre temos o
 possível, o algoritmo deve finalizar, caso ele corra infinitamente, o algoritmo
 não é válido.
 
-### Verificando a Eficiência de um Algoritmo.
-&nbsp; Existem dois parâmetros a ser verificados quando falamos da eficiência de
+### Eficiência de um Algoritmo
+
+&nbsp; Existem dois parâmetros a se verificar quando falamos da eficiência de
 um algoritmo, são elas: tempo e espaço.
 
 ###### Time Complexity
 &nbsp; É a medida definida pelo tempo o algoritmo levou para terminar o seu
 trabalho.
 
-#### Space Complexity
+##### Space Complexity
 &nbsp; É a medida definida pela memória que o algoritmo utilizou para completar
 o seu trabalho.
 
-### Como Escolher o Melhor Algoritmo
-&nbsp; Para tal, verificamos: como os algoritmos se saem no:
+### Medindo a Eficiência Temporal.
+&nbsp; Para podermos verificar a eficiência temporal de um dado algoritmo,
+observamos quantas tentativas o algoritmo necessita para encontrar a resposta no:
 
 1. Melhor caso.
 
@@ -59,12 +61,14 @@ o seu trabalho.
 
 3. Caso mediano.
 
-Como exemplo, em um jogo de advinhar números, sendo os possíveis inputs [1;100]
-,
-para um algoritmo que tenta cada número de forma crescente, teríamos:
+&nbsp;Como exemplo, em um jogo de advinhar números, sendo os possíveis inputs [1;100]
+, para um algoritmo que tenta cada número de forma crescente, teríamos:
 
 1. Melhor caso = 3.
 
 2. Pior caso = 100.
 
 3. Caso mediano = 50.
+
+&nbsp; Verificar o pior caso nos dá o benefício de saber qual o máximo de tempo
+que o nosso algoritmo pode levar.
