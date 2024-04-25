@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Programação/Utilidades/Git/Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b3c44c1da9782f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Utilidades/Git/Git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Programação/Utilidades/Git/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Programação/Utilidades/Git/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Programação/Utilidades/Git/Git.md"
               }
             }
           }
@@ -146,6 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f59b37768171c455",
-  "lastOpenFiles": []
+  "active": "6b3c44c1da9782f1",
+  "lastOpenFiles": [
+    "Programação/Linguagens/C++/C++.md",
+    "Programação/Linguagens/C/C.md",
+    "Programação/Linguagens/C/Tutorial/00. Intro.md",
+    "README.md",
+    "Programação/Linguagens/Linguagens.md",
+    "Programação/Programação.md",
+    "Programação/Linguagens/Markdown/2. Links and Lists.md",
+    "Programação/Utilidades/Git/Git.md",
+    "Programação/Utilidades/Utilidades.md"
+  ]
 }
