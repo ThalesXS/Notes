@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Utilidades/Git/Git.md",
+                "file": "Programação/Linguagens/JavaScript/JavaScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cd7f04c4d44dfb3b",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Utilidades/Git/Git.md",
+                "file": "Programação/Linguagens/JavaScript/JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Utilidades/Git/Git.md",
+                "file": "Programação/Linguagens/JavaScript/JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Utilidades/Git/Git.md"
+                "file": "Programação/Linguagens/JavaScript/JavaScript.md"
               }
             }
           }
@@ -161,14 +162,23 @@
   },
   "active": "6b3c44c1da9782f1",
   "lastOpenFiles": [
+    "Programação/Linguagens/JavaScript/Tutorial",
+    "Programação/Linguagens/JavaScript/Bibliotecas",
+    "Programação/Linguagens/C++/Tutorial/New in C++/05. Exceptions.md",
+    "Programação/Linguagens/JavaScript/JavaScript.md",
+    "Programação/Linguagens/JavaScript",
+    "Programação/Linguagens/C++/Tutorial/New in C++/07. Referência.md",
+    "Programação/Linguagens/C++/Tutorial/New in C++/08. Endereço de Memória.md",
+    "Programação/Linguagens/C++/Bibliotecas/Bibliotecas.md",
+    "Programação/Linguagens/C++/Tutorial/Tutorial.md",
     "Programação/Linguagens/C++/C++.md",
+    "Programação/Utilidades/Git/Git.md",
     "Programação/Linguagens/C/C.md",
     "Programação/Linguagens/C/Tutorial/00. Intro.md",
     "README.md",
     "Programação/Linguagens/Linguagens.md",
     "Programação/Programação.md",
     "Programação/Linguagens/Markdown/2. Links and Lists.md",
-    "Programação/Utilidades/Git/Git.md",
     "Programação/Utilidades/Utilidades.md"
   ]
 }
