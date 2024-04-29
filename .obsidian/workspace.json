@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Linguagens/JavaScript/JavaScript.md",
-                "mode": "source",
+                "file": "Programação/Utilidades/Git/Git.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cd7f04c4d44dfb3b",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Linguagens/JavaScript/JavaScript.md",
+                "file": "Programação/Utilidades/Git/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Linguagens/JavaScript/JavaScript.md",
+                "file": "Programação/Utilidades/Git/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Linguagens/JavaScript/JavaScript.md"
+                "file": "Programação/Utilidades/Git/Git.md"
               }
             }
           }
@@ -162,23 +161,37 @@
   },
   "active": "6b3c44c1da9782f1",
   "lastOpenFiles": [
+    "Programação/Utilidades/Git/Comandos/git rebase.md",
+    "Programação/Utilidades/Git/Git.md",
+    "Programação/Utilidades/Git/Comandos/git fetch.md",
+    "Programação/Utilidades/Git/Comandos/git clone.md",
+    "Programação/Utilidades/Git/Comandos/git pull.md",
+    "Programação/Utilidades/Git/Branch.md",
+    "Programação/Utilidades/Git/Comandos/git merge.md",
+    "Programação/Utilidades/Git/Comandos/git switch.md",
+    "Programação/Utilidades/Git/Comandos/git init.md",
+    "Programação/Utilidades/Git/Comandos/git checkout.md",
+    "Programação/Utilidades/Git/Comandos/git branch.md",
+    "Programação/Utilidades/Git/Untitled",
+    "Programação/Utilidades/ANSI Colors/ANSI Colors.md",
+    "Programação/Utilidades/ANSI Colors",
+    "Programação/Utilidades/Git/Comandos/git log.md",
+    "Programação/Utilidades/Git/Comandos/git commit.md",
+    "Programação/Utilidades/Git/Comandos/git add.md",
+    "Programação/Utilidades/Git/Comandos/git config.md",
+    "Programação/Utilidades/Git/Comandos/git status.md",
+    "Programação/Utilidades/Git/Comandos",
+    "Programação/Linguagens/C++/Bibliotecas/cctype/cctype.md",
+    "Programação/Linguagens/C/Functions/98. System Calls.md",
+    "Programação/Linguagens/C/Functions/98. Termios.md",
+    "Programação/Linguagens/C/Functions/98. Term.md",
+    "Programação/Linguagens/JavaScript/JavaScript.md",
     "Programação/Linguagens/JavaScript/Tutorial",
     "Programação/Linguagens/JavaScript/Bibliotecas",
     "Programação/Linguagens/C++/Tutorial/New in C++/05. Exceptions.md",
-    "Programação/Linguagens/JavaScript/JavaScript.md",
     "Programação/Linguagens/JavaScript",
     "Programação/Linguagens/C++/Tutorial/New in C++/07. Referência.md",
     "Programação/Linguagens/C++/Tutorial/New in C++/08. Endereço de Memória.md",
-    "Programação/Linguagens/C++/Bibliotecas/Bibliotecas.md",
-    "Programação/Linguagens/C++/Tutorial/Tutorial.md",
-    "Programação/Linguagens/C++/C++.md",
-    "Programação/Utilidades/Git/Git.md",
-    "Programação/Linguagens/C/C.md",
-    "Programação/Linguagens/C/Tutorial/00. Intro.md",
-    "README.md",
-    "Programação/Linguagens/Linguagens.md",
-    "Programação/Programação.md",
-    "Programação/Linguagens/Markdown/2. Links and Lists.md",
-    "Programação/Utilidades/Utilidades.md"
+    "Programação/Linguagens/C++/Bibliotecas/Bibliotecas.md"
   ]
 }
