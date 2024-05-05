@@ -177,13 +177,14 @@ int main(void)
 
 int main(void)
 {
-	std::ifstream my_file("filename");    //Open the file
+	std::ifstream myFile("filename");    //Open the file
+	std::string myTextl
 
-	while (getline (MyReadFile, myText))    // Read the lines from the file.
+	while (getline(MyReadFile, myText))    // Read the lines from the file.
 	{   
-		cout << myText;                    // Print the lines.
+		std::cout << myText;                    // Print the lines.
 	}
-	my_file.close();                     //Close the file
+	myFile.close();                     //Close the file
 	return (0);
 }
 ```

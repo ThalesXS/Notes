@@ -4,35 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "e6763591b6dab670",
+        "id": "4d558de4f12dc7f6",
         "type": "tabs",
         "children": [
           {
-            "id": "f59b37768171c455",
+            "id": "120b5f40690678e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Utilidades/Git/Git.md",
+                "file": "Programação/Linguagens/Python/Tutorial/Variáveis/Tuples/Tuples.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6b3c44c1da9782f1",
+            "id": "94f106cc9a2c0cc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Utilidades/Git/Git.md",
-                "mode": "preview",
+                "file": "Programação/Linguagens/Python/Tutorial/Variáveis/Lists/Métodos.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Utilidades/Git/Git.md",
+                "file": "Programação/Linguagens/Python/Tutorial/Variáveis/Tuples/Tuples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Utilidades/Git/Git.md",
+                "file": "Programação/Linguagens/Python/Tutorial/Variáveis/Tuples/Tuples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Utilidades/Git/Git.md"
+                "file": "Programação/Linguagens/Python/Tutorial/Variáveis/Tuples/Tuples.md"
               }
             }
           }
@@ -159,39 +158,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b3c44c1da9782f1",
+  "active": "120b5f40690678e6",
   "lastOpenFiles": [
-    "Programação/Utilidades/Git/Comandos/git rebase.md",
-    "Programação/Utilidades/Git/Git.md",
-    "Programação/Utilidades/Git/Comandos/git fetch.md",
-    "Programação/Utilidades/Git/Comandos/git clone.md",
-    "Programação/Utilidades/Git/Comandos/git pull.md",
-    "Programação/Utilidades/Git/Branch.md",
-    "Programação/Utilidades/Git/Comandos/git merge.md",
-    "Programação/Utilidades/Git/Comandos/git switch.md",
-    "Programação/Utilidades/Git/Comandos/git init.md",
-    "Programação/Utilidades/Git/Comandos/git checkout.md",
-    "Programação/Utilidades/Git/Comandos/git branch.md",
-    "Programação/Utilidades/Git/Untitled",
-    "Programação/Utilidades/ANSI Colors/ANSI Colors.md",
-    "Programação/Utilidades/ANSI Colors",
-    "Programação/Utilidades/Git/Comandos/git log.md",
-    "Programação/Utilidades/Git/Comandos/git commit.md",
-    "Programação/Utilidades/Git/Comandos/git add.md",
-    "Programação/Utilidades/Git/Comandos/git config.md",
-    "Programação/Utilidades/Git/Comandos/git status.md",
-    "Programação/Utilidades/Git/Comandos",
-    "Programação/Linguagens/C++/Bibliotecas/cctype/cctype.md",
-    "Programação/Linguagens/C/Functions/98. System Calls.md",
-    "Programação/Linguagens/C/Functions/98. Termios.md",
-    "Programação/Linguagens/C/Functions/98. Term.md",
-    "Programação/Linguagens/JavaScript/JavaScript.md",
-    "Programação/Linguagens/JavaScript/Tutorial",
-    "Programação/Linguagens/JavaScript/Bibliotecas",
-    "Programação/Linguagens/C++/Tutorial/New in C++/05. Exceptions.md",
-    "Programação/Linguagens/JavaScript",
-    "Programação/Linguagens/C++/Tutorial/New in C++/07. Referência.md",
-    "Programação/Linguagens/C++/Tutorial/New in C++/08. Endereço de Memória.md",
-    "Programação/Linguagens/C++/Bibliotecas/Bibliotecas.md"
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Lists/Métodos.md",
+    "Programação/Linguagens/Python/Tutorial/02. Variáveis.md",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Tuples/Tuples.md",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Lists/Lists.md",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Strings/Métodos.md",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Strings/Strings.md",
+    "Programação/Linguagens/Python/Tutorial/04. Operadores.md",
+    "Programação/Linguagens/Python/Tutorial/06. Loops.md",
+    "Programação/Linguagens/Python/Tutorial/05. Condicionais.md",
+    "Programação/Linguagens/Python/Tutorial/07. Funções.md",
+    "Programação/Linguagens/C/Tutorial/05. Operadores.md",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Dicts (dictionary)/Dicts (dictionary).md",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Sets/Sets.md",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Dicts (dictionary)",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Untitled.md",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Sets",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Tuples",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Lists",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Booleans/Booleans.md",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Booleans",
+    "Programação/Linguagens/Python/Módulos/Módulos.md",
+    "Programação/Linguagens/Python/Python.md",
+    "Programação/Linguagens/Python/Tutorial/01. Syntax.md",
+    "Programação/Conceitos/Dicionário/OOP.md",
+    "Programação/Linguagens/Python/Tutorial/Variáveis/Strings",
+    "Programação/Linguagens/Python/Tutorial/Variáveis",
+    "Programação/Linguagens/Python/Tutorial/03. Imprimindo Variáveis.md",
+    "Programação/Linguagens/Python/Módulos",
+    "Programação/Linguagens/Linguagens.md",
+    "Programação/Linguagens/Markdown/2. Links and Lists.md",
+    "Programação/Linguagens/Python/Tutorial",
+    "DAT/AI/AI ChatBot.md",
+    "Programação/Linguagens/Python",
+    "DAT/AI/Assuntos a Evitar.md",
+    "DAT/AI/Prompt Guide.md",
+    "Pasted image 20240502233230.png",
+    "Programação/Utilidades/NordVPN/NordVPN.md"
   ]
 }
